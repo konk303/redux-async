@@ -30,7 +30,7 @@ function fetchPosts(subreddit: string) {
 }
 
 function shouldFetchPosts(state, subreddit) {
-  const posts = state.postsBySubredit[subreddit]
+  const posts = state.postsBySubreddit[subreddit]
   if (!posts) {
     return true
   } else if (posts.isFetching) {

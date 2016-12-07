@@ -21,7 +21,7 @@ function posts(state = {
   }
 }
 
-function postsBySubredit(state = {}, action) {
+function postsBySubreddit(state = {}, action) {
   switch (action.type) {
     case 'INVALIDATE_SUBREDDIT':
     case 'REQUEST_POSTS':
@@ -34,4 +34,4 @@ function postsBySubredit(state = {}, action) {
   }
 }
 
-export default postsBySubredit
+export default postsBySubreddit

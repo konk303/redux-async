@@ -1,11 +1,11 @@
 // @flow
 import { combineReducers } from 'redux'
 import selectedSubreddit from './selectedSubreddit'
-import postsBySubredit from './postsBySubreddit'
+import postsBySubreddit from './postsBySubreddit'
 
 const rootReducer = combineReducers({
   selectedSubreddit,
-  postsBySubredit
+  postsBySubreddit
 })
 
 export default rootReducer

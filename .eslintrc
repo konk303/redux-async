@@ -1,0 +1,9 @@
+{
+  "parser": "babel-eslint",
+  "plugins": ["flowtype-errors","react"],
+  "rules": {
+    "flowtype-errors/show-errors": 1,
+    "semi": [2, "never"],
+    "no-unexpected-multiline": 2
+  }
+}
